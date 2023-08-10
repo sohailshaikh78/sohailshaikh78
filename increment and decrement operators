@@ -1,0 +1,18 @@
+//increment and decrement operators
+#include <stdio.h>
+main()
+{
+    int a= 23;
+    a++;
+    printf("a++ is %d",a);
+    printf("\n");
+    a--;
+    printf("a-- is %d",a);
+    
+    
+    
+    
+    
+    
+    
+}
