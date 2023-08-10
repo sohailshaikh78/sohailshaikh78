@@ -1,0 +1,16 @@
+//pre increment and post increment
+#include <stdio.h>
+ int main()
+ {
+ int x=0;
+ int a=6;
+ x=++a;
+ printf("after pre increment= \n" );
+ printf("value of a is %d \n and value of x is %d \n", x,a);
+int y=0;
+int b=7;
+ y=b++;
+ printf("after post increment= \n");
+ printf("value of b is %d   and value of y is %d  ", y,b);
+ 
+ }
