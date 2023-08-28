@@ -1,0 +1,33 @@
+//write a program adding, sub, mul, divide
+#include <stdio.h>
+main()
+{
+    int a,b,option;
+    printf("enter a & b ");
+    scanf("%d %d",&a,&b);
+    printf("select option");
+    printf("\n");
+    printf(" \n 1add ");
+    printf("\n 2substract ");
+    printf("\n 3multiply ");
+    printf("\n 4divide ");
+
+
+
+    scanf("%d",&option);
+    switch(option)
+    {
+    case 1 :printf("add=%d",a+b);
+            break;
+    case 2 :printf("subs=%d",a-b);
+            break;
+    case 3 : printf("multiply=%d",a*b);
+            break;
+    case 4 : printf("divide=%d",a/b);
+            break;
+    default:printf("enter a valid number");
+    }
+
+
+
+}
