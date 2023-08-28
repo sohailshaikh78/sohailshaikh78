@@ -1,0 +1,22 @@
+//write a program adding, sub, mul, divide
+#include <stdio.h>
+main()
+{
+    int a,b;
+    char option;
+    printf("enter a & b ");
+    scanf("%d %d",&a,&b);
+    printf("select option");
+    printf("\n");
+    printf(" \n 1add");
+    printf("\n 2substract");
+    printf("\n 3multiply");
+    printf("\n 4divide");
+    
+    
+    
+    scanf("%c",&option);
+    
+    
+    
+}
