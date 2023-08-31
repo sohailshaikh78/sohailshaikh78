@@ -1,0 +1,32 @@
+//sumo of all no. using loop
+#include <stdio.h>
+int main()
+{
+    int i,n,q,r,sum =0;
+   
+    printf("enter a number n ");
+    scanf("%d",&n);
+  
+     
+    for(i=1;n!=0;i++)
+    
+    
+    {
+          q= n/10;
+          r= n%10;
+         sum=sum+r;
+          n=q;
+          
+    }
+    
+        
+      
+      printf("sum is %d",sum);
+     
+        
+     
+    
+    
+        
+    
+}
