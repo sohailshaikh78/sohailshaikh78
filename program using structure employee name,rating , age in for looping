@@ -1,0 +1,25 @@
+// program to display using structure employee name,rollno,marks.
+#include <stdio.h>
+struct employee
+{
+    char name[10];
+    int rating;
+    int age;
+} s[3];
+  main()
+{
+    int i;
+    for(i=0;i<3;i++)
+    {
+        printf("enter a employee name,rating and age=" );
+        scanf("%s%d%d",s[i].name,&s[i].rating,&s[i].age);
+        
+    }
+     
+    //display data
+    for(i=0;i<3;i++) {
+    printf("\n name is %s",s[i].name);
+    printf("\n rating is %d",s[i].rating);
+    printf("\n age is %d",s[i].age);
+}
+}
