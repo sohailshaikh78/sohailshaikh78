@@ -1,0 +1,25 @@
+// program to display using structure student name,rollno,marks.
+#include <stdio.h>
+struct student
+{
+    char name[10];
+    int marks;
+    int age;
+} s[3];
+  main()
+{
+    int i;
+    for(i=0;i<3;i++)
+    {
+        printf("enter a name,marks and age=" );
+        scanf("%s%d%d",s[i].name,&s[i].marks,&s[i].age);
+        
+    }
+     
+    //display data
+    for(i=0;i<3;i++) {
+    printf("\n name is %s",s[i].name);
+    printf("\n marks is %d",s[i].marks);
+    printf("\n age is %d",s[i].age);
+}
+}
