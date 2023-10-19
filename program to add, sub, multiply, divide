@@ -1,0 +1,30 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+void addition(int a,int b)
+{
+    printf("\naddition is %d",a+b);
+}
+void subtraction(int a,int b)
+{
+    printf("\nsubstraction is %d",a-b);
+}
+void multiplication(int a,int b)
+{
+    printf("\nmultiplication is %d",a*b);
+}
+void divide(int a,int b)
+{
+    printf("\ndivision is %d",a/b);
+}
+main()
+{
+    int a,b;
+    printf("enter a no. a=");
+    scanf("%d",&a);
+    printf("enter a second b=");
+    scanf("%d",&b);
+    addition(a,b);
+    subtraction(a,b);
+    multiplication(a,b);
+    divide(a,b);
+}
