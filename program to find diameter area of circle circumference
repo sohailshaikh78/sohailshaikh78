@@ -1,0 +1,20 @@
+// to find out diameter , circumfeeerence, ara of circle
+#include <stdio.h>
+void circle(float r)
+{
+    float d,c,a;
+    d=2*r;
+    c=2*3.14*r;
+    a=3.14*r*r;
+    printf("\ndiameter is %f",d);
+    printf("\ncircumference is %f",c);
+    printf("\narea of circle is %f",a);
+    
+}
+main()
+{
+    float r;
+    printf("enter radius of circle=");
+    scanf("%f",&r);
+    circle(r);
+}
